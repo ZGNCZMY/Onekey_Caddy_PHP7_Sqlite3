@@ -27,7 +27,7 @@ Error="${Red}[错误]${Font}"
 
 #定义配置文件路径
 Default_dir(){
-conf_dir="/etc/dylanbai8"
+conf_dir="/usr/local/etc/caddy"
 }
 
 Default_caddy(){
@@ -43,11 +43,11 @@ v2ray_conf="${v2ray_conf_dir}/config.json"
 Default_rinetdbbr(){
 rinetdbbr_conf_dir="${conf_dir}/rinetdbbr"
 rinetdbbr_conf="${rinetdbbr_conf_dir}/config.conf"
-rinetdbbr_url="https://github.com/dylanbai8/Onekey_Caddy_PHP7_Sqlite3/raw/master/bbr"
+rinetdbbr_url="https://github.com/ZGNCZMY/Onekey_Caddy_PHP7_Sqlite3/raw/master/bbr"
 }
 
 win64_source(){
-bat_url="https://raw.githubusercontent.com/dylanbai8/Onekey_Caddy_PHP7_Sqlite3/master/zip"
+bat_url="https://raw.githubusercontent.com/ZGNCZMY/Onekey_Caddy_PHP7_Sqlite3/master/zip"
 }
 
 #80端口用于签发验证ssl证书
