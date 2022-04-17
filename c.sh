@@ -460,7 +460,7 @@ caddy_install(){
 
 	Default_caddy
 	#caddy官方脚本
-	curl https://getcaddy.com | bash -s personal
+	curl https://caddyserver.com/ | bash -s personal
 
 	#添加自启动 加载配置文件
 	touch /etc/systemd/system/caddy.service
@@ -607,7 +607,7 @@ echo -e "${OK} ${GreenBG} 访问网站首页查看 http://${getdomain} ${Font}"
 
 else
 	echo -e "${Error} ${RedBG} 请先执行以下命令安装环境 ${Font}"
-	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate git.io/c.sh && chmod +x c.sh && bash c.sh ${Font}"
+	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate https://raw.githubusercontent.com/ZGNCZMY/Onekey_Caddy_PHP7_Sqlite3/master/c.sh && chmod +x c.sh && bash c.sh ${Font}"
 	exit 1
 fi
 }
@@ -645,7 +645,7 @@ echo -e "${OK} ${GreenBG} 访问网站首页查看 http://${getdomain} ${Font}"
 
 else
 	echo -e "${Error} ${RedBG} 请先执行以下命令安装环境 ${Font}"
-	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate git.io/c.sh && chmod +x c.sh && bash c.sh ${Font}"
+	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate https://raw.githubusercontent.com/ZGNCZMY/Onekey_Caddy_PHP7_Sqlite3/master/c.sh && chmod +x c.sh && bash c.sh ${Font}"
 	exit 1
 fi
 }
@@ -675,7 +675,7 @@ echo -e "${OK} ${GreenBG} 访问网站首页查看 http://${getdomain} ${Font}"
 
 else
 	echo -e "${Error} ${RedBG} 请先执行以下命令安装环境 ${Font}"
-	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate git.io/c.sh && chmod +x c.sh && bash c.sh ${Font}"
+	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate https://raw.githubusercontent.com/ZGNCZMY/Onekey_Caddy_PHP7_Sqlite3/master/c.sh && chmod +x c.sh && bash c.sh ${Font}"
 	exit 1
 fi
 }
@@ -705,7 +705,7 @@ echo -e "${OK} ${GreenBG} 访问网站首页查看 http://${getdomain} ${Font}"
 
 else
 	echo -e "${Error} ${RedBG} 请先执行以下命令安装环境 ${Font}"
-	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate git.io/c.sh && chmod +x c.sh && bash c.sh ${Font}"
+	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate https://raw.githubusercontent.com/ZGNCZMY/Onekey_Caddy_PHP7_Sqlite3/master/c.sh && chmod +x c.sh && bash c.sh ${Font}"
 	exit 1
 fi
 }
@@ -736,7 +736,7 @@ echo -e "${OK} ${GreenBG} 访问网站首页查看 http://${getdomain} ${Font}"
 
 else
 	echo -e "${Error} ${RedBG} 请先执行以下命令安装环境 ${Font}"
-	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate git.io/c.sh && chmod +x c.sh && bash c.sh ${Font}"
+	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate https://raw.githubusercontent.com/ZGNCZMY/Onekey_Caddy_PHP7_Sqlite3/master/c.sh && chmod +x c.sh && bash c.sh ${Font}"
 	exit 1
 fi
 }
@@ -760,7 +760,7 @@ echo -e "${OK} ${Green} 解压密码（由函数随机生成）：${Font} ${unzi
 
 else
 	echo -e "${Error} ${RedBG} 请先执行以下命令安装环境 ${Font}"
-	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate git.io/c.sh && chmod +x c.sh && bash c.sh ${Font}"
+	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate https://raw.githubusercontent.com/ZGNCZMY/Onekey_Caddy_PHP7_Sqlite3/master/c.sh && chmod +x c.sh && bash c.sh ${Font}"
 	exit 1
 fi
 }
@@ -980,7 +980,7 @@ EOF
 
 else
 	echo -e "${Error} ${RedBG} 请先执行以下命令安装环境 ${Font}"
-	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate git.io/c.sh && chmod +x c.sh && bash c.sh ${Font}"
+	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate https://raw.githubusercontent.com/ZGNCZMY/Onekey_Caddy_PHP7_Sqlite3/master/c.sh && chmod +x c.sh && bash c.sh ${Font}"
 	exit 1
 fi
 }
@@ -1036,7 +1036,7 @@ EOF
 
 else
 	echo -e "${Error} ${RedBG} 请先执行以下命令安装环境 ${Font}"
-	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate git.io/c.sh && chmod +x c.sh && bash c.sh ${Font}"
+	echo -e "${OK} ${GreenBG} wget -N --no-check-certificate https://raw.githubusercontent.com/ZGNCZMY/Onekey_Caddy_PHP7_Sqlite3/master/c.sh && chmod +x c.sh && bash c.sh ${Font}"
 	exit 1
 fi
 }
